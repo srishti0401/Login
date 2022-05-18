@@ -2,11 +2,31 @@
 <html>
 <head>Login Page </head>
 <style>
-form{
-	border: 5px solid #808080;
-	padding: 40px;
 
-	}
+form{
+	border: 1px solid #808080;
+	padding: 10px;
+      margin:0;
+      width: 30%;
+      height: 75%
+	margin-bottom: 25%;
+      margin-left: 35%;
+      margin-right: 50%;
+      margin-top: 10%;
+      }
+
+.box{
+      border:1px solid rgb(15, 129, 15);
+      padding:1px;
+      margin:0;
+      width: 100%;
+      height: 15%
+      text-align: center;
+	color: rgb(15, 129, 15);
+      background-color: rgba(0, 151, 19,0.1);
+      
+      }
+
 contatiner{
     border:3px solid #808080:}
 input[type=email],input[type=password]{
@@ -15,10 +35,12 @@ input[type=email],input[type=password]{
 	margin:8px 0px;
 	display:inline-block;
 	border: 1px solid #ccc;
-	box-sizing:border-box;}
+	box-sizing:border-box;
+      background-color: rgba(46, 114, 183, 0.1);
+	}
 	
 .container{
-    padding:200px;
+    padding:20px;
     input[type=text], select, textarea {
     width: 100%;
     padding: 8px;
@@ -26,21 +48,29 @@ input[type=email],input[type=password]{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
 }
 
 	</style>
 <body>
-<form action="#" method="post">
+      
+<form action="nav.html" method="post">
       <div id="id01" class="modal">
 <div class="container">
+      <h1><center><b>ECAMSECURE</b></center></h1>
+      <p><center>Please login to start your session</center></p><br>
+      <a href=""></a>
+      <div class="box"><strong>Success!</strong>You've been logged in.
+      </div> 
       <label for="email"><b>Email</b></label>
       <input type="email" placeholder="Enter your Email here" name="email" required="" >
+      
 <br>
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter your Password here" name="psw" required="" >
+      <i class="far fa-eye" id="togglePassword"></i>
         
-      <button type="submit" style="background-color: rgb(0,128,128); color: white; font-size: 20px; width: 100%; border: none; height: 50px; cursor:pointer;">Login</button>
-</form>
+      <button type="submit" style="background-color: rgb(0,102,204); color: white; font-size: 20px; width: 100%; border: none; height: 50px; cursor:pointer;">Sign in</button>
 </div>
 </body>
 </html>
