@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>Login Page </head>
+<head>Login Page 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
 
 form{
@@ -32,7 +34,7 @@ contatiner{
 input[type=email],input[type=password]{
 	width:100%;
 	padding: 8px 20px;
-	margin:8px 0px;
+	margin:auto;
 	display:inline-block;
 	border: 1px solid #ccc;
 	box-sizing:border-box;
@@ -45,8 +47,8 @@ input[type=email],input[type=password]{
     width: 100%;
     padding: 8px;
     border: 5px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
     resize: vertical;
     
 }
@@ -57,20 +59,20 @@ input[type=email],input[type=password]{
 <form action="nav.html" method="post">
       <div id="id01" class="modal">
 <div class="container">
-      <h1><center><b>ECAMSECURE</b></center></h1>
-      <p><center>Please login to start your session</center></p><br>
+      <h1 style="font-size:3vw"><center><b>ECAMSECURE</b></center></h1>
+      <p style="font-size:1vw"><center> Login to start your session</center></p><br>
       <a href=""></a>
-      <div class="box"><strong>Success!</strong>You've been logged in.
+      <div class="box" style="font-size:2vw"><strong>Success!</strong>You've been logged in.
       </div> 
-      <label for="email"><b>Email</b></label>
+      <label for="email" style="font-size:2vw"><b>Email</b></label>
       <input type="email" placeholder="Enter your Email here" name="email" required="" >
       
 <br>
-      <label for="psw"><b>Password</b></label>
+      <label for="psw" style="font-size:2vw"><b>Password</b></label>
       <input type="password" placeholder="Enter your Password here" name="psw" required="" >
       <i class="far fa-eye" id="togglePassword"></i>
         
-      <button type="submit" style="background-color: rgb(0,102,204); color: white; font-size: 20px; width: 100%; border: none; height: 50px; cursor:pointer;">Sign in</button>
+      <button type="submit" style="background-color: rgb(0,102,204); color: white; font-size: 2vw; width: 100%; border: none; height: 50px; cursor:pointer;">Sign in</button>
 </div>
 </body>
 </html>
